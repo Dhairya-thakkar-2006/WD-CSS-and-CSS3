@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Layout</title>
+  <style>
+    body {
+      margin: 0;
+      
+    }
+
+    header, footer {
+        background-color: aqua;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .container {
+        display: flex;
+        min-height: 80vh;
+    }
+
+    .sidebar {
+        background-color: #fff;
+        padding: 20px;
+        width: 200px;
+    }
+
+    .main {
+        background: #fff;
+        padding: 20px;
+    }
+
+    footer {
+        margin-top: auto;
+    }
+</style>
+</head>
+<body>
+
+    <header>
+        <h1>My Website</h1>
+    </header>
+
+    <div class="container">
+    <div class="sidebar">
+        <h3>Sidebar</h3>
+        <p>Links or menu here</p>
+    </div>
+    <div class="main">
+        <h2>Main Content</h2>
+        <p>This is the central content area.</p>
+    </div>
+    </div>
+
+    <footer>
+        <p>Footer</p>
+    </footer>
+
+</body>
+</html>
